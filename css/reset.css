@@ -1,0 +1,35 @@
+    @charset "utf-8";
+@import url();
+
+
+html{-webkit-text-size-adjust:none;overflow-y:auto;line-height:1.35;font-family: 'Noto Sans KR', 'Sans-serif', '맑은 고딕', '돋움';}
+body{font-size:15px;color:#000;width:100%;}
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,button,
+table, caption, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;border:0;outline:0;line-height:inherit;font-size:inherit;font-family:'Noto Sans KR','Sans-serif','맑은 고딕', '돋움','Dotum','Apple SD Gothic Neo';letter-spacing:-.025em;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+
+/* :focus{outline:0;} */
+hr{padding:0;margin:0;}
+table{border-collapse:collapse;border-spacing:0;}
+table tr th, table tr td{vertical-align:middle;}
+fieldset, img{border:0;vertical-align:top;}
+header, footer, section, article, aside, nav, hgroup, details, menu, figure, figcaption{display:block}
+ins{text-decoration:none;}
+video{display:block;}
+li{list-style:none;}
+caption{ text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;padding:0;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup,sub{vertical-align:baseline;}
+legend{color:#666;}
+select,input,textarea,button{padding:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;box-sizing:border-box;vertical-align:middle;font-size:0.857142857rem;font-family:'Noto Sans KR', 'Sans-serif','맑은 고딕', '돋움', 'Dotum', 'Helvetica', 'Apple SD Gothic Neo';}
+select{ -o-appearance:none;-moz-appearance:none;-webkit-appearance:none;appearance:none; }
+select::-ms-expand{ display:none; }
+button,input{background:transparent;outline:0;-webkit-appearance:none;}
+button,input[type="button"],input[type="submit"]{cursor:pointer;}
+em,i{font-style:normal;}
+pre,code,kbd,samp,tt{*font-size:100%;line-height:100%;}
+a{text-decoration:none;color:#000;background:transparent;outline:0;}
+a:hover, a.selected{color:#000;text-decoration:none;}
+textarea{padding:0;border:0;background-color:transparent;overflow-y:scroll;resize:none;-webkit-appearance:none;}
+textarea:focus{outline:0;}
