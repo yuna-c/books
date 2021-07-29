@@ -3437,13 +3437,13 @@ body[data-depth1="survival"][data-depth2="main"] #footer{display:none;}
 #gnb > ul.include-logo .btn-area{ width:18px; height:8px; background:url('//img.sdij.com/mobile/common.png') no-repeat; background-position:0 -2500px; cursor:pointer; }
 #gnb > ul.include-logo .books-logo h1:hover .btn-area{ background-position:-25px -2500px; }
 
-/* 20210713 추가 tab */
+/* 20210713 추가 tab
 .tab-type1{ width:780px; margin:0 auto; background-color:#323232; box-sizing:border-box; }
 .tab-type1 > ul li{ width:auto; height:50px; }
 .tab-type1 > ul li a, .tab-type1 > ul li span{ line-height:50px; padding:3px 10px 0; display:block; font-size:13px; font-weight:400; color:#a0a0a0; }
 .tab-type1 > ul li.selected a{ color:#fff; z-index:100; }
 
-/* swiper */
+/* swiper 
 *[data-box="book_main"] .bottom .middle .float-area{ width:100%; }
 *[data-box="book_main"] .bottom .middle .float-area p{ width:auto; margin:0 10px; }
 .bottom .middle{ height:50px; }
@@ -3456,3 +3456,4 @@ body[data-depth1="survival"][data-depth2="main"] #footer{display:none;}
 .swiper-slide-type1 .swiper-button-next, .swiper-slide-type1 .swiper-container-rtl .swiper-button-prev, .swiper-button-prev, .swiper-container-rtl .swiper-button-next{ padding:2px 5px 2px 0; top:49%; background-color:#323232; background-size:auto 1.2333333333rem !important; opacity:.8; }
 .swiper-slide-type1 .swiper-button-next, .swiper-slide-type1 .swiper-container-rtl .swiper-button-prev{ right:0; } 
 .swiper-slide-type1 .swiper-button-prev, .swiper-slide-type1 .swiper-container-rtl .swiper-button-next{ left:0; top:47%; }
+*/
