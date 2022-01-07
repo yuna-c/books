@@ -1,0 +1,97 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+body{ overflow-x:hidden; }
+#content_wrap{ margin:0; padding:0; }
+#content_wrap .event-container > *{ font-family: 'Noto Sans KR','맑은 고딕', '돋움','Dotum','Apple SD Gothic Neo', sans-serif; font-size:16px; letter-spacing:-.025em; }
+
+.layout-area{ width:1100px; height:auto; margin:0 auto; }
+
+/* landing-header */
+.event-header{ width:100%; height:100%; min-height:1000px; position:relative; background:url(//img.sdij.com/sd2019/books/pc/event/2022/1207/header_bg.png) no-repeat 100% 0; background-size:100% 100%; z-index:1; }
+.event-header:after{ content:''; width:555px; height:760px; position:absolute; top:210px; left:auto; right:455px; bottom:0; background:url(//img.sdij.com/sd2019/books/pc/event/2022/1207/header_img.png) no-repeat; background-size:contain; z-index:0; }
+.event-header .layout-area{ position:relative; z-index:1; }
+.event-header .layout-area ul li{ text-align:left; } 
+.event-header .layout-area ul li{ padding-bottom:34px; }
+.event-header .layout-area ul li span{ width:1100px; margin:0 auto; display:block; }
+.event-header .layout-area ul li:first-child{ padding-top:300px; }
+.event-header .layout-area ul li:last-child{ padding-top:234px; position:relative; }
+.event-header .layout-area ul li:last-child img{ padding-top:60px; }
+
+/* landing-cont01 */
+.event-cont01{  background:url(//img.sdij.com/sd2019/books/pc/event/2022/1207/cont01_bg.png) no-repeat 74% 10%; background-size:auto 100% ;  }
+.event-cont01 .layout-area{ width:940px; margin:220px auto 195px; display:block; position:relative; }
+.event-cont01 .layout-area .txt-area{ position:absolute; top:-30px; right:38px; font-size:13px; color:#999; }
+.event-cont01 .layout-area .img-area{ position:relative; }
+.event-cont01 .layout-area .img-area img{ max-width:100%; max-height:100%; }
+
+.event-cont01 .layout-area .slide-container{ position:absolute; top:0; left:30px; }
+.event-cont01 .layout-area .cycle-slideshow{ position:relative; z-index:0; }
+.event-cont01 .layout-area .cycle-slideshow > img{ width:900px; overflow:hidden; }
+.event-cont01 .layout-area .cycle-slideshow .img-slide{ display:none; }
+.event-cont01 .layout-area .cycle-slideshow .img-slide-first{ display:block; }
+
+.event-cont01 .layout-area .cycle-slideshow .cycle-pager{ position:absolute; right:10px; bottom:-24px; text-align:center; }
+.event-cont01 .layout-area .cycle-slideshow .cycle-pager span{ width:88px; height:2px; display:inline-block; background-color:#eee; font-size:0; cursor:pointer; }
+.event-cont01 .layout-area .cycle-slideshow .cycle-pager span.cycle-pager-active{ background-color:#000; }
+
+/* landing-cont02 */
+.event-cont02{ background-color:#F3F3F3; }
+.event-cont02 .layout-area{ padding-top:158px; padding-bottom:253px; }
+.event-cont02 .layout-area ul li{ padding-bottom:110px; }
+.event-cont02 .layout-area ul li:first-child{ margin-left:100px; }
+.event-cont02 .layout-area ul li:last-child{ padding-bottom:0; }
+
+/* landing-cont03 */
+.event-cont03{ background-color:#C0CABE; }
+.event-cont03 .layout-area{ padding:110px 0 88px; background-color:#fff; }
+.event-cont03 .layout-area ul li{ padding-bottom:79px; text-align:center; }
+.event-cont03 .layout-area ul li:last-child{ padding-bottom:0; }
+
+/* landing-cont04 */
+.ico-selected{ background-image:url(//img.sdij.com/sd2019/books/pc/event/2022/1207/ico_selected.png); background-size:auto 100%; }
+
+.event-cont04{ position:relative; }
+.event-cont04:before{ content:''; width:100%; display:block; position:absolute; left:50%; top:287px; transform:translate(-50%, 0); border:1px solid #DCDCDC; }
+.event-cont04 .layout-area{ padding:196px 0 60px; }
+
+.event-cont04 .txt-area{ width:976px; margin:0 auto; }
+.event-cont04 .txt-area ul{ display:flex; margin-bottom:30px; }
+.event-cont04 .txt-area ul li:first-child{ width:177px; }
+.event-cont04 .txt-area ul li{ width:342px; font-size:18px; }
+.event-cont04 .txt-area ul li:last-child{ width:445px; }
+.event-cont04 .txt-area ul li p{ padding-bottom:10px; }
+.event-cont04 .txt-area ul li span{ margin-left:23px; font-weight:700; }
+
+.event-cont04 .list-cards{ padding-top:60px; padding-bottom:20px; }
+.event-cont04 .list-cards ul:before, .event-cont04 .list-cards ul:after{ content:''; display:block; clear:both; }
+.event-cont04 .list-cards > ul > li{ width:340px; min-height:410px; height:100%; margin-left:38px; float:left; text-align:center; cursor:pointer; box-sizing:border-box; }
+.event-cont04 .list-cards > ul > li:first-child{ margin-left:0px; }
+.event-cont04 .list-cards > ul > li .box-area{ position:relative; border:1px solid #ddd; }
+.event-cont04 .list-cards > ul > li .txt-area{ width:100%; height:100%; display:none; position:absolute; background-color:rgba(0,0,0,0.8); }
+.event-cont04 .list-cards > ul > li .txt-area .ico-selected{ height:62px; position:absolute; top:50%; left:0; right:0; font-weight:700; color:#fff; transform:translate(0,-50%); }
+.event-cont04 .list-cards > ul > li .img-area{ width:340px; height:200px; background-color:#ECECEC; overflow:hidden; box-sizing:border-box; }
+.event-cont04 .list-cards > ul > li .img-area > img{ max-width:100%; max-height:100%; }  
+
+.event-cont04 .list-cards .txt{ width:100%; padding:10px 0 40px 0; }
+.event-cont04 .list-cards .txt li{ line-height:20px; font-size:14px; letter-spacing:-0.025em; }
+.event-cont04 .list-cards .txt li .float-area{ width:215px; margin:0 auto 26px; }
+.event-cont04 .list-cards .txt li .float-area p{ padding:0 13px; height:40px; font-size:13px; text-align:left; box-sizing:border-box; }
+.event-cont04 .list-cards .txt li .float-area p:first-child{ border-right:1px solid #707070; }
+.event-cont04 .list-cards .txt li:first-child{ line-height:38px; padding:30px 0 19px; font-size:24px; font-weight:700; }
+.event-cont04 .list-cards .txt li.color-gray{ font-size:13px; font-weight:600; color:#ebebeb; }
+
+.event-cont04 .form-radio{ position:relative; cursor:pointer; }
+.event-cont04 .form-radio input[type="radio"]{ width:0; height:0; position:absolute; opacity:0; }
+.event-cont04 .form-radio input[type="radio"]:checked + .box-area{ border:none; }
+.event-cont04 .form-radio input[type="radio"]:checked + .box-area .txt-area{ display:block; }
+
+.event-cont04 .btn-goods{ margin:0 auto 140px; text-align:right; }
+.event-cont04 .btn-goods .btn-buy{ width:145px; height:35px; display:inline-block; background:url(//img.sdij.com/sd2019/books/pc/event/2022/1207/btn_buy.png) no-repeat 0 100%; text-indent:-9999px; font-size:0; }
+.event-cont04 .btn-goods .btn-buy:hover{ background-image:url(//img.sdij.com/sd2019/books/pc/event/2022/1207/btn_buy.png), linear-gradient(transparent calc(100% - 25px), rgba(214, 251, 113, 0.75) 25px); background-position:0 100%; z-index:-1; }
+.event-cont04 .time-table{ padding:60px 0; background-color:#f2f2f2; text-align:center; }
+
+/* landing-cont05 */
+.event-cont05{ padding:30px 0; background-color:#F3F3F3; } 
+.event-cont05 .layout-area{ width:768px; }
+.event-cont05 ul{ font-size:13px; color:#999; }

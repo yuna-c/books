@@ -1,0 +1,74 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+#content_wrap{ margin:0 auto!important; padding:3.733rem 0 0 !important; }
+#content_wrap .landing-container > *{ font-family: 'Noto Sans KR','맑은 고딕', '돋움','Dotum','Apple SD Gothic Neo', sans-serif; font-size:16px; letter-spacing:-.025em; }
+
+[class*='event']{ padding:25px 0; }
+[class*='event'] img{ max-width:280px; margin:0 auto; }
+
+.layout-area{ margin:0 auto; text-align:center; }
+.float-area{ background-color:transparent !important; }
+.ico-selected{ background-image:url(//img.sdij.com/sd2019/books/mobile/event/2022/1207/ico_selected.png); background-size:auto 100%; }
+
+/* event-header */
+.event-header{ background:url(//img.sdij.com/sd2019/books/mobile/event/2022/1207/header_bg.png) no-repeat 50% 0; background-size:cover; overflow-x:hidden; }
+.event-header .layout-area{ max-width:280px; margin:0 auto; position:relative; }
+.event-header .layout-area:after{ content:''; width:284px; position:absolute; top:5px; left:90px; right:0; bottom:0; background:url(//img.sdij.com/sd2019/books/mobile/event/2022/1207/header_img.png) no-repeat; background-size:100% auto; background-position:100% 0; z-index:0; }
+.event-header .header-area{ position:relative; max-width:280px; margin:0 auto; z-index:2;  }
+.event-header .header-area li:nth-child(1){ max-width:100px; margin-bottom:15px; }
+.event-header .header-area li:nth-child(2){ max-width:144px; margin-bottom:12px; }
+.event-header .header-area li:nth-child(3){ margin-bottom:20px; }
+
+/* event-cont01 */
+.event-cont01{ margin:0 auto; padding:20px 0 10px; }
+.event-cont01 .layout-area{ position:relative; background:url(//img.sdij.com/sd2019/books/mobile/event/2022/1207/cont01_bg02.png) no-repeat; background-size:auto 80%; background-position:50% 0; }
+.event-cont01 .layout-area .slide-container{ width:250px; margin:18px auto 0; } 
+.event-cont01 .layout-area .slide-container img{ max-width:250px; }
+.event-cont01 .layout-area .cycle-slideshow .img-slide{ width:100%; display:none; text-align:center;  }
+.event-cont01 .layout-area .cycle-slideshow .img-slide-first{ display:block; }
+.event-cont01 .layout-area .cycle-slideshow .cycle-pager{ position:absolute; top:305px; left:0; right:0; text-align:center; z-index:1000; }
+.event-cont01 .layout-area .cycle-slideshow .cycle-pager span{ width:50px; height:2px; display:inline-block; background-color:#ddd; font-size:0; cursor:pointer; }
+.event-cont01 .layout-area .cycle-slideshow .cycle-pager span.cycle-pager-active{ background-color:#000; }
+
+/* event-cont02 */
+.landing-container .event-cont02{ background-color:#F3F3F3; padding-bottom:45px; }
+.landing-container .event-cont02 .tit{ margin:10px auto 20px; }
+
+/* event-cont03 */
+.event-cont03{ background-color:#C0CABE; padding:20px 20px 0 20px; }
+.event-cont03 .layout-area{ max-width:280px; padding:6px 0 113px; background-color:#fff; }
+.event-cont03 .layout-area h3{ max-width:200px; margin:0 auto 77px; }
+.event-cont03 .slide-container{ margin:auto; }
+
+/* event-cont04 */
+.event-cont04{ position:relative; padding:25px 0 25px; }
+.event-cont04 img{ max-width:320px; margin-bottom:25px; }
+.event-cont04 .btn-area{ max-width:280px; margin:0 auto; padding-bottom:10px; text-align:right; }
+.event-cont04 .btn-area a{ width:120px; height:30px; display:inline-block; background:url(//img.sdij.com/sd2019/books/mobile/event/2022/1207/btn_buy.png) no-repeat 0 100%; background-size:100% auto; font-size:0; }
+
+.event-cont04 .list-cards{ width:280px; margin:auto; }
+.event-cont04 .list-cards span{ display:inline-block; }
+.event-cont04 .list-cards > ul:before, .landing-container .event-cont04 .list-cards > ul:after{ content:''; display:block; clear:both; }
+.event-cont04 .list-cards > ul > li{ width:100%; height:100px; margin-bottom:10px; position:relative; text-align:center; overflow:hidden; cursor:pointer; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+.event-cont04 .list-cards > ul > li .txt-area{ width:100%; height:100%; display:none; position:absolute; background-color:rgba(0,0,0,0.5); }
+.event-cont04 .list-cards > ul > li .txt-area .ico-selected{ width:38px; height:30px; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); }
+.event-cont04 .list-cards > ul > li .img-area{ width:100px; height:100%; float:left; overflow:hidden; } 
+.event-cont04 .list-cards > ul > li .img-area > img{ max-width:100%; max-height:100%; }
+.event-cont04 .list-cards > ul > li .txt{ width:178px; height:100%; float:right; }
+.event-cont04 .list-cards > ul > li .txt ul{ height:100%; padding:12px 12px; font-size:12px; } 
+.event-cont04 .list-cards > ul > li .txt li{ line-height:18px; text-align:left; }
+.event-cont04 .list-cards > ul > li .txt li.float-area{ width:90%; font-size:10px; }
+.event-cont04 .list-cards > ul > li .txt li:first-child{ padding-bottom:3px; font-weight:700; }
+.event-cont04 .list-cards > ul > li .txt li.color-gray{ font-weight:700; color:#ebebeb; }
+
+.event-cont04 .form-radio{ width:280px; height:100px; margin-left:0; position:relative; display:block; cursor:pointer; background-color:#fff; border:1px solid #ddd; box-sizing:border-box; }
+.event-cont04 .form-radio input[type="radio"]{ width:100%; height:100%; position:absolute; top:0; left:0; right:0; bottom:0; border:none; z-index:1; }
+.event-cont04 .form-radio input[type="radio"]:checked{ width:100%; height:100%; background-color:rgba(0,0,0,0.16); }
+.event-cont04 .form-radio input[type="radio"]:checked + .txt-area{ display:block; z-index:1; }
+
+/* event-cont05 */
+.event-cont05{ background-color:#F3F3F3; }
+.event-cont05 .layout-area{ max-width:280px; font-size:11px; color:#999999; text-align:left; }
+
+
